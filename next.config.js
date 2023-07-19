@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  basePath: '/base-path',
   reactStrictMode: true,
   i18n: {
     locales: ["en-US", "fr"],
