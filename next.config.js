@@ -16,6 +16,7 @@ module.exports = {
         pathname: '**',
       },
     ],
+    minimumcachettl: 100
   },
   async redirects() {
     return [
